@@ -1,0 +1,72 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    height: 90vh;
+}
+
+.divCountry{
+    padding-top: 50px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 70px ;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.img2 {
+    margin: 0;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: fixed;
+    z-index: -1;
+}
+
+.ul{
+    color: rgb(0, 0, 0);
+    list-style: none;
+}
+
+.h1{
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.containerActivities{
+    color: rgb(19, 18, 18);
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+.containerActivities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+.flex{
+    display: flex;
+}

@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+}
+
+.ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.ul li {
+    margin: 0px 15px 0px 15px;
+    padding: 5px;
+}
+
+.navLink {
+    display: inline-block;
+    height: 32px;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+.navLink:hover {
+    background-color: #232323;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
