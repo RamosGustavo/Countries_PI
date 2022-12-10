@@ -64,9 +64,9 @@ export default function DetailCountry() {
                         <h2 className={s.h2}>Activities</h2>
                         <div className={s.divActivities}>
                             {activities && activities.length ? (
-                                activities.map((el, index) => {
+                                activities.map((el, i) => {
                                     return (
-                                        <div className={s.divActivity} key={index}>
+                                        <div className={s.divActivity} key={i}>
                                             <h3 className={s.h3}>{el.name}</h3>
                                             <ul className={s.ul}>
                                                 <li>Season: {el.season}</li>

@@ -1,0 +1,178 @@
+.global{
+    color: white;
+    width: fit-content;
+    margin: 40px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.img1 {
+    margin: 0;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: fixed;
+    z-index: -1;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.h1{
+    color: white;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.optionsContainerF{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.optionsContainerF div{
+    width: 140px;
+    height: 60px;
+
+}
+
+.optionsContainerT{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.optionsContainerT div{
+    width: 140px;
+    height: 60px;
+}
+
+
+.inputs_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tittle_countries{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.valid2T{
+    color: red;
+}
+
+.valid2F{
+    margin-left: 340px;
+    top: 80px;
+    position: absolute;
+    color: rgb(201, 1, 1);
+    font-weight:bolder;
+}
+
+.paises_centrados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paises{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputNameF {
+    border: #000000 solid 2px;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    width: 200px;
+}
+
+.inputNameT {
+    border: #000000 solid 2px;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    width: 200px;
+}
+
+.selectF {
+    border: #0a0a0a solid 2px;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.selectT {
+    border: #020202 solid 2px;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.inputDurationF {
+    border: #000000 solid 2px;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    width: 100px;
+    margin-right: 5px;
+}
+
+.inputDurationT {
+    border: #000000 solid 2px;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    width: 100px;
+    margin-right: 5px;
+}
+
+.validF, .validT{
+    color: red;
+    font-weight:bolder;
+}
+
+.difficulty{
+    margin-left: 5px;
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+
+}
